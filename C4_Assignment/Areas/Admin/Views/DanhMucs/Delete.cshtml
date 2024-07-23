@@ -1,0 +1,32 @@
+﻿@model C4_Assignment.Models.DanhMuc
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center">XÓA THÔNG TIN SẢN PHẨM</h1>
+
+<h3>Bạn có chắc muốn xóa sản phẩm này ?</h3>
+<div>
+    <hr />
+    <dl class="row fs-4">
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.TenDanhMuc)
+        </dt>
+        <dd class = "col-sm-6">
+            @Html.DisplayFor(model => model.TenDanhMuc)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.HinhAnh)
+        </dt>
+        <dd class = "col-sm-6">
+            <img src="@Html.DisplayFor(model => model.HinhAnh)" alt="Alternate Text" width="25%" />
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="DanhMucID" />
+        <input type="submit" value="Xóa" class="btn btn-danger col-sm-2" />
+        <a class="btn btn-secondary col-sm-2" asp-action="Index">Quay trở lại</a>
+    </form>
+</div>

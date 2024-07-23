@@ -1,0 +1,148 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - C4_Assignment</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/C4_Assignment.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">KING SHOES</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 container-fluid">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Product" asp-route-id="1">SẢN PHẨM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">LIÊN HỆ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="FAQ">HỎI ĐÁP</a>
+                        </li>
+                        <li class="float-end" style="margin-right:auto">
+                        <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Login">GIỎ HÀNG</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tài khoản
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Login">Đăng nhập</a>
+                            </li>
+                            <a class="dropdown-item" asp-area="" asp-controller="TaiKhoans" asp-action="Create">Đăng ký</a></li>
+                            </ul>
+                            </li>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+     </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @* Footer *@
+    <div class="container-fluid">
+        <footer class="text-center text-lg-start text-white"
+                style="background-color: #1c2331">
+            <section class="d-flex justify-content-between p-4"
+                     style="background-color:none">
+                <div>
+                    <!--icon-->
+                    @*                     <a href="" class="text-white me-4">
+                    <i class="fab fa-facebook-f"></i>
+                    </a> *@
+                </div>
+
+            </section>
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h3 class="text-uppercase fw-bold">KING SHOES</h3>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                Chúng tôi luôn mong muốn mang lại trải nghiệm tuyệt vời nhất cho bạn !
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h3 class="text-uppercase fw-bold">SẢN PHẨM</h3>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-white">CHẠY BỘ</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">BÓNG RỔ</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">THỜI TRANG</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">BÓNG ĐÁ</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h3 class="text-uppercase fw-bold">VỀ CHÚNG TÔI</h3>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-white">TRANG CHỦ</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">GIỚI THIỆU</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">SẢN PHẨM</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">HỎI ĐÁP</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h3 class="text-uppercase fw-bold">LIÊN HỆ</h3>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i>TP.CẦN THƠ</p>
+                            <p><i class="fas fa-envelope mr-3"></i> nghiamhhpc05062@fpt.edu.vn</p>
+                            <p><i class="fas fa-phone mr-3"></i> +84 939 660 295</p>
+                            <p><i class="fas fa-phone mr-3"></i> +84 939 669 999</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-3"
+                 style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2024 nghiamhhpc05062
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

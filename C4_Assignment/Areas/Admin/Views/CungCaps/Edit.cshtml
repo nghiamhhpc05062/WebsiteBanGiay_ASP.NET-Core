@@ -1,0 +1,38 @@
+﻿@model C4_Assignment.Models.CungCap
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="text-center">SỬA THÔNG TIN NHÀ CUNG CẤP</h1>
+
+<hr />
+<div class="row fs-4">
+    <div class="col-md-6 mx-auto">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CungCapID" />
+            <div class="form-group mt-3">
+                <label asp-for="TenCungCap" class="control-label"></label>
+                <input asp-for="TenCungCap" class="form-control" />
+                <span asp-validation-for="TenCungCap" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="ThanhPho" class="control-label"></label>
+                <input asp-for="ThanhPho" class="form-control" />
+                <span asp-validation-for="ThanhPho" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="QuocGia" class="control-label"></label>
+                <input asp-for="QuocGia" class="form-control" />
+                <span asp-validation-for="QuocGia" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Lưu" class="btn btn-primary col-sm-2" />
+                <a class="btn btn-secondary col-sm-2" asp-action="Index">Quay trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

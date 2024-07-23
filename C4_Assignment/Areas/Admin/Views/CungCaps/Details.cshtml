@@ -1,0 +1,35 @@
+﻿@model C4_Assignment.Models.CungCap
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center">THÔNG TIN NHÀ CUNG CẤP</h1>
+
+<div>
+    <hr />
+    <dl class="row fs-4">
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.TenCungCap)
+        </dt>
+        <dd class = "col-sm-6">
+            @Html.DisplayFor(model => model.TenCungCap)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.ThanhPho)
+        </dt>
+        <dd class = "col-sm-6">
+            @Html.DisplayFor(model => model.ThanhPho)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.QuocGia)
+        </dt>
+        <dd class = "col-sm-6">
+            @Html.DisplayFor(model => model.QuocGia)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary col-sm-2" asp-action="Edit" asp-route-id="@Model?.CungCapID">Sửa</a>
+    <a class="btn btn-secondary col-sm-2" asp-action="Index">Quay trở lại</a>
+</div>

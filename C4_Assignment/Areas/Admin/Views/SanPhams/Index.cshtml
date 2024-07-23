@@ -1,0 +1,77 @@
+﻿@model IEnumerable<C4_Assignment.Models.SanPham>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">SẢN PHẨM</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Thêm sản phẩm</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSanPham)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HinhAnh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GhiChu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MauSac)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KichThuoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DanhMuc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CungCap)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSanPham)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.HinhAnh)" alt="Alternate Text" width="30%" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GhiChu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MauSac)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KichThuoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DanhMuc.DanhMucID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CungCap.CungCapID)
+            </td>
+            <td>
+                <a class="btn btn-secondary col-sm-12 mt-3" asp-action="Edit" asp-route-id="@item.SanPhamID">Sửa</a>
+@*                 <a asp-action="Details" asp-route-id="@item.SanPhamID">Details</a> | *@
+                <a class="btn btn-danger col-sm-12 mb-3 mt-3" asp-action="Delete" asp-route-id="@item.SanPhamID">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

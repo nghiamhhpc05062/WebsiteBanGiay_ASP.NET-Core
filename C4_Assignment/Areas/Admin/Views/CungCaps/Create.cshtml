@@ -1,0 +1,51 @@
+﻿@model C4_Assignment.Models.CungCap
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center">THÊM NHÀ CUNG CẤP</h1>
+
+<hr />
+<div class="row fs-4">
+    <div class="col-md-6 mx-auto">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mt-3">
+                <label asp-for="TenCungCap" class="control-label"></label>
+                <input asp-for="TenCungCap" class="form-control" />
+                <span asp-validation-for="TenCungCap" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="ThanhPho" class="control-label"></label>
+                <select asp-for="ThanhPho" asp-items="ViewBag.ThanhPhoList" class="form-control">
+                    <option value="0">Thành Phố</option>
+                    <option value="1">Cần Thơ</option>
+                    <option value="2">Hồ Chí Minh</option>
+                    <option value="3">Đà Nẵng</option>
+                    <option value="4">NewYork</option>
+                </select>
+                <span asp-validation-for="ThanhPho" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="QuocGia" class="control-label"></label>
+                <select asp-for="QuocGia" asp-items="ViewBag.QuocGiaList" class="form-control">
+                    <option value="0">Quốc Gia</option>
+                    <option value="1">Việt Nam</option>
+                    <option value="2">Thái Lan</option>
+                    <option value="3">Hàn  QUốc</option>
+                    <option value="4">Mỹ</option>
+                    <option value="5">Pháp</option>
+                    <option value="6">Anh</option>
+                </select>
+                <span asp-validation-for="QuocGia" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Thêm" class="btn btn-primary col-sm-3" />
+                <a class="btn btn-secondary col-sm-3" asp-action="Index">Quay trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

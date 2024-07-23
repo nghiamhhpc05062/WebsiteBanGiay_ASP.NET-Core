@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewData["Title"] = "Product";
+}
+@model IQueryable<C4_Assignment.Models.SanPham>
+
+
+<section class="container m-auto mb-4 mt-5 p-3">
+    <h1>SẢN PHẨM NỔI BẬC </h1>
+    <hr />
+    <div class="row mt-3">
+
+        @foreach (var product in Model)
+        {
+            <div class="col-sm-4 m-auto border p-3">
+                <div class="position-relative">
+                    <img src="@product.HinhAnh" alt="Alternate Text" width="100%" height="250px" />
+                </div>
+                <div class="">
+                    <p>@product.TenSanPham</p>
+                    <p class="text-muted">@product.Gia.ToString("#,##0") đ <span>  </span> </p>
+                    <div id="rating1" class="star-rating" role="rating" data-rating="3">
+                        <span>5</span>
+                        <span class="star" style="color:orange" data-value="1">&#9733;<span class="star-notification"></span></span>
+                        <p>@product.GhiChu</p>
+                    </div>
+                </div>
+                <div class="mt-2 row">
+                    <a href="~/Home/Information?id=@product.SanPhamID" class="col-md-5 btn btn-primary mx-auto">XEM CHI TIẾT</a>
+                    <a href="~/Home/Login" class="col-md-5 btn btn-danger mx-auto">THÊM VÀO GIỎ</a>
+                </div>
+            </div>
+        }
+
+
+
+        <nav aria-label="Page navigation example" class="mt-5">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="">1</a></li>
+                <li class="page-item"><a class="page-link" href="">2</a></li>
+                <li class="page-item"><a class="page-link" href="">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</section>
+
+
+
+@*
+Nổi bậc *@
+
+@* <section id="shoes-products" class="container product-store position-relative padding-large no-padding-top mt-5 m-auto" style="margin-top:10%">
+    <img src="~/image//banner/bn11.jpg" alt="Alternate Text" width="100%" height="300px" />
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+
+            <div class="carousel-item active">
+                <div class="row m-auto p-2">
+
+                    @foreach (var product in Model.productList.Take(3))
+                    {
+                        <div class="card col-sm-3 mx-1 mt-2" style="width: 25rem;">
+                            <img src="@product.Image" class="card-img-top mt-2" alt="Alternate Text" />
+                            <div class="card-body">
+                                <h5 class="card-title">@product.Name</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-danger d-grid gap-2 col-10 mx-auto">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row m-auto p-2">
+
+                    @foreach (var product in Model.productList.Skip(3).Take(3))
+                    {
+                        <div class="card col-sm-3 mx-1 mt-2" style="width: 25rem;">
+                            <img src="@product.Image" class="card-img-top mt-2" alt="Alternate Text" />
+                            <div class="card-body">
+                                <h5 class="card-title">@product.Name</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-danger d-grid gap-2 col-10 mx-auto">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" class="bg-secondary" data-bs-slide-to="0" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" class="bg-secondary" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+</section>
+ *@
+
+

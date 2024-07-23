@@ -1,0 +1,59 @@
+﻿
+
+
+@model IQueryable<C4_Assignment.Models.SanPham>
+
+
+<div class="container" style="margin-top:10%">
+    @foreach (var i in Model)
+    {
+        <div class="container my-5 border p-4">
+            <div class="row">
+                <div class="col-md-7 my-auto">
+                    <div class="main-img">
+                        <img class="img-fluid" src="@i.HinhAnh" alt="ProductS">
+                    </div>
+                </div>
+                <div class="col-md-5 mx-auto">
+                    <div class="main-description px-2">
+                        <div class="category text-bold">
+                            Category: Women
+                        </div>
+                        <h2 class="product-title text-bold my-3">
+                            @i.TenSanPham
+                        </h2>
+
+                        <div class="price-area my-4">
+                            <p class="new-price text-bold fw-bold mb-1 fs-3">@i.Gia.ToString("#,000") đ</p>
+                            <span id="rating1" class="star-rating text-warning" role="rating" data-rating="3">
+                                <span class="star" data-value="1">&#9733;<span class="star-notification"></span></span>
+                                <span class="star" data-value="2">&#9733;<span class="star-notification"></span></span>
+                                <span class="star" data-value="3">&#9733;<span class="star-notification"></span></span>
+                                <span class="star" data-value="4">&#9733;<span class="star-notification"></span></span>
+                                <span class="star" data-value="5">&#9734;<span class="star-notification"></span></span>
+                            </span>
+                            <p class="text-secondary mb-1">(Additional tax may apply on checkout)</p>
+                        </div>
+                        <div class="mt-4">
+                            <a href="/Home/Login" class="btn btn-primary shadow btn btn-lg custom-btn btn-primary">THÊM VÀO GIỎ HÀNG</a>
+                        </div>
+                    </div>
+
+                    <div class="delivery my-4">
+                        <p class="font-weight-bold mb-0"><span><i class="fa-solid fa-truck"></i></span>
+                            <b>Giao hàng được thực hiện trong 3 ngày kể từ ngày mua</b>
+                        </p>
+                        <p class="text-secondary">Đặt hàng ngay để nhận được sản phẩm này giao hàng</p>
+                    </div>
+                    <div class="delivery-options my-4">
+                        <p class="font-weight-bold mb-0"><span><i class="fa-solid fa-filter"></i></span> <b>Tùy chọn giao hàng</b> </p>
+                        <p class="text-secondary">Xem các tùy chọn giao hàng tại đây</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    }
+</div>

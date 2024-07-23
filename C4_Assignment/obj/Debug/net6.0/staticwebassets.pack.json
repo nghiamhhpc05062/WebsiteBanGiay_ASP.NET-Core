@@ -1,0 +1,457 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\C4_Assignment.bundle.scp.css",
+      "PackagePath": "staticwebassets\\C4_Assignment.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\Anh\\nv1.jpg",
+      "PackagePath": "staticwebassets\\image\\Anh\\nv1.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn11.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn11.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn12.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn12.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn13.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn13.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn3.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn3.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn4.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn4.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn5.png",
+      "PackagePath": "staticwebassets\\image\\banner\\bn5.png"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn6.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn6.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn7.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn7.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn8.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn8.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\bn9.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\bn9.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\kit.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\kit.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\men.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\men.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\banner\\woman.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\woman.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\danhmuc\\dm1.jpg",
+      "PackagePath": "staticwebassets\\image\\danhmuc\\dm1.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\danhmuc\\dm2.jpg",
+      "PackagePath": "staticwebassets\\image\\danhmuc\\dm2.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\danhmuc\\dm3.jpg",
+      "PackagePath": "staticwebassets\\image\\danhmuc\\dm3.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\danhmuc\\dm4.jpg",
+      "PackagePath": "staticwebassets\\image\\danhmuc\\dm4.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\danhmuc\\dm5.jpg",
+      "PackagePath": "staticwebassets\\image\\danhmuc\\dm5.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\danhmuc\\dm6.jpg",
+      "PackagePath": "staticwebassets\\image\\danhmuc\\dm6.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\logo\\logoadidas.png",
+      "PackagePath": "staticwebassets\\image\\logo\\logoadidas.png"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b1.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b1.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b2.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b2.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b3.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b3.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b4.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b4.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b6.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b6.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b7.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b7.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b8.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b8.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\BongRo\\b9.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\BongRo\\b9.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s1.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s1.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s2.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s2.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s3.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s3.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s4.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s4.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s5.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s5.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s6.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s6.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s7.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s7.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\ChayBo\\s8.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\ChayBo\\s8.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j1.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j1.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j2.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j2.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j3.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j3.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j4.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j4.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j5.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j5.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j6.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j6.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j7.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j7.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\shoes\\DaoPho\\j8.jpg",
+      "PackagePath": "staticwebassets\\image\\shoes\\DaoPho\\j8.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\tintuc\\tin1.jpg",
+      "PackagePath": "staticwebassets\\image\\tintuc\\tin1.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\tintuc\\tin2.jpg",
+      "PackagePath": "staticwebassets\\image\\tintuc\\tin2.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\image\\tintuc\\tin3.jpg",
+      "PackagePath": "staticwebassets\\image\\tintuc\\tin3.jpg"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\C#4\\C4_Assignment\\C4_Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.C4_Assignment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.C4_Assignment.props",
+      "PackagePath": "build\\C4_Assignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.C4_Assignment.props",
+      "PackagePath": "buildMultiTargeting\\C4_Assignment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.C4_Assignment.props",
+      "PackagePath": "buildTransitive\\C4_Assignment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

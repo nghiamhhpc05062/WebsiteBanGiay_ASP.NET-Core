@@ -1,0 +1,75 @@
+﻿@{
+    var userName = Context.Session.GetString("NameUser");
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - C4_Assignment</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/C4_Assignment.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+
+    <div class="container-fluid" style="max-height:890px">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 px-sm-2 px-0 bg-dark">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 fixed-top bg-dark w-25">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline fs-1">KING SHOES</span>
+                    </a>
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none mb-5" aria-expanded="false">
+                        <img src="https://i.pinimg.com/564x/41/82/aa/4182aa3131e53c8ce91cde74657deea2.jpg" alt="hugenerd" width="60" class="rounded-circle">
+                        <p class="d-none d-sm-inline mx-1 fs-2 p-4">@userName</p>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item btn btn-outline-danger mb-3 w-100">
+                            <a class="nav-link text-light fs-4 fw-bold" asp-area="Admin" asp-controller="CungCaps" asp-action="Index">CUNG CẤP</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-danger mb-3 w-100">
+                            <a class="nav-link text-light fs-4 fw-bold" asp-area="Admin" asp-controller="DanhMucs" asp-action="Index">DANH MỤC SẢN PHẨM</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-danger mb-3 w-100">
+                            <a class="nav-link text-light fs-4 fw-bold" asp-area="Admin" asp-controller="SanPhams" asp-action="Index">SẢN PHẨM</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-danger mb-3 w-100">
+                            <a class="nav-link text-light fs-4 fw-bold" asp-area="Admin" asp-controller="DonHangs" asp-action="Index">DƠN HÀNG</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-danger mb-3 w-100">
+                            <a class="nav-link text-light fs-4 fw-bold" asp-area="Admin" asp-controller="DonHangChiTiets" asp-action="Index">ĐƠN HÀNG CHI TIẾT</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-danger mb-3 w-100">
+                            <a class="nav-link text-light fs-4 fw-bold" asp-area="Admin" asp-controller="KhachHangs" asp-action="Index">KHÁCH HÀNG</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-danger mb-3 w-100">
+                            <a class="nav-link text-light fs-4 fw-bold" asp-area="Admin" asp-controller="NhanViens" asp-action="Index">NHÂN VIÊN</a>
+                        </li>
+
+                        <br />
+                        <li class="nav-item btn btn-outline-light mb-4">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Đăng Xuất</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col py-3">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

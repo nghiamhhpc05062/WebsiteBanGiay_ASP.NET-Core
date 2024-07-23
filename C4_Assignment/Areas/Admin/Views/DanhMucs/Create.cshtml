@@ -1,0 +1,32 @@
+﻿@model C4_Assignment.Models.DanhMuc
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center">THÊM SẢN PHẨM MỚI</h1>
+
+<hr />
+<div class="row fs-4">
+    <div class="col-md-6 mx-auto">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mt-3">
+                <label asp-for="TenDanhMuc" class="control-label"></label>
+                <input asp-for="TenDanhMuc" class="form-control" />
+                <span asp-validation-for="TenDanhMuc" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="HinhAnh" class="control-label"></label>
+                <input asp-for="HinhAnh" class="form-control" />
+                <span asp-validation-for="HinhAnh" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3 row">
+                <input type="submit" value="Thêm" class="btn btn-primary col m-3" />
+                <a class="btn btn-secondary col-sm-5 m-3" asp-action="Index">Quay trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

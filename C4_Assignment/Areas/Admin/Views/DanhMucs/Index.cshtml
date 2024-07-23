@@ -1,0 +1,40 @@
+﻿@model IEnumerable<C4_Assignment.Models.DanhMuc>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">DANH MỤC SẢN PHẨM</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Thêm sản phẩm mới</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr class="fs-4 fw-bold col-sm-4">
+            <th>
+                @Html.DisplayNameFor(model => model.TenDanhMuc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HinhAnh)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="fs-3 fw-bold col-sm-4">
+                @Html.DisplayFor(modelItem => item.TenDanhMuc)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.HinhAnh)" alt="Alternate Text" width="25%" />
+            </td>
+            <td>
+                <a class="btn btn-secondary col-sm-12 mt-3" asp-action="Edit" asp-route-id="@item.DanhMucID">Sửa</a>
+                <a class="btn btn-danger col-sm-12 mb-3 mt-3" asp-action="Delete" asp-route-id="@item.DanhMucID">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

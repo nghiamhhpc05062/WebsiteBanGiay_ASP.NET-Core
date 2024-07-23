@@ -1,0 +1,38 @@
+﻿@model C4_Assignment.Models.CungCap
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center">XÓA THÔNG TIN NHÀ CUNG CẤP</h1>
+
+<h3>Bạn có chắc muốn xóa nhà cung cấp này ?</h3>
+<div>
+    <hr />
+    <dl class="row fs-4">
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.TenCungCap)
+        </dt>
+        <dd class = "col-sm-6">
+            @Html.DisplayFor(model => model.TenCungCap)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.ThanhPho)
+        </dt>
+        <dd class = "col-sm-6">
+            @Html.DisplayFor(model => model.ThanhPho)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.QuocGia)
+        </dt>
+        <dd class = "col-sm-6">
+            @Html.DisplayFor(model => model.QuocGia)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CungCapID" />
+        <input type="submit" value="Xóa" class="btn btn-danger col-sm-2" />
+        <a class="btn btn-secondary col-sm-2" asp-action="Index">Quay trở lại</a>
+    </form>
+</div>
